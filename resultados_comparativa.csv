@@ -1,0 +1,5 @@
+,ROC-AUC,PR-AUC,F1 minoritaria
+1 · XGBoost (sin grafo),0.9241,0.269,0.1858
+2 · XGBoost (con grafo),0.9373,0.3061,0.3104
+3 · PNA (solo),0.8279,0.2187,0.2642
+4 · Híbrido PNA+XGBoost,0.9444,0.4241,0.3681

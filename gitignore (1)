@@ -1,0 +1,31 @@
+# --- Conjuntos de datos -------------------------------------------------------
+# Los CSV de transacciones ocupan cientos de MB y se regeneran con el script de
+# reetiquetado (véase datos/README.md). patterns.txt sí se versiona: es pequeño y
+# constituye el insumo del reetiquetado.
+datos/*.csv
+datos/*.zip
+!datos/patterns.txt
+
+# NOTA: resultados/ SÍ se versiona. Las salidas son la evidencia de la ejecución
+# que sustenta las tablas y figuras de la memoria, y permiten consultarlas sin
+# necesidad de reejecutar el cuaderno.
+
+# --- Entornos virtuales -------------------------------------------------------
+.venv/
+venv/
+env/
+
+# --- Python -------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- Jupyter ------------------------------------------------------------------
+.ipynb_checkpoints/
+
+# --- Sistema operativo y editores ---------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
